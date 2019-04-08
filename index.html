@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ontwerp 3 - Git-flow</title>
+        <link rel="stylesheet" href="style/index.css">
+    </head>
+    <body>
+
+        <header id="header">
+            <h1 id="page-title">Ontwerp 3 - Git-flow</h1>
+            <p id="naam">Naam van student</p>
+            <p id="version">Versie: 2.2</p>
+        </header>
+
+        <main id="main">
+            <section id="intro">
+                <h1>Ontwerp 3 - Oefentoets</h1>
+            </section>
+
+
+            <article id="introductie">
+                <header>
+                    <div class="title">
+                        <h2>Introductie</h2>
+                    </div>
+                    <div class="meta">
+                        <img src="images/placeholder.jpg">
+                    </div>
+                </header>
+                <section>
+                    <h3>Doelstelling</h3>
+                    <ul>
+                        <li>
+                            Behendig zijn in:
+                            <em>commits</em>,
+                            <em>branching</em>,
+                            <em>merging</em>,
+                            <em>pushing</em> en
+                            <em>pulling</em>
+                        </li>
+                        <li>Kunnen werken volgens de gitflow methode</li>
+                        <li>Use case diagrammen kunnen maken</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Startinstructies</h3>
+                    <ul>
+                        <li>Fork deze repository naar jouw eigen github account</li>
+                        <li>Clone deze fork naar jouw computer</li>
+                        <li>Open je favoriete git applicatie en editor.</li>
+                        <li><strong style="color: red;">Volg de instructies!!!!!</strong></li>
+                    </ul>
+                </section>
+            </article>
+
+            <article id="afbeeldingen">
+                <header>
+                    <div class="title">
+                        <h2>Afbeeldingen toevoegen</h2>
+                    </div>
+                    <div class="meta">
+                        <img src="images/placeholder.jpg">
+                    </div>
+                </header>
+                <section>
+                    <h3>Opdracht</h3>
+                    <p>
+                        Voor je begint met het aanpassen van de code,
+                        zorg dat je in de <strong>develop</strong> branch zit.
+                    </p>
+                    <ul>
+                        <li>Maak een nieuwe branch: <strong>feature/afbeeldingen</strong></li>
+                        <li>Controleer dat je in deze branch zit</li>
+                        <li>Vervang bovenaan de pagina &quot;Naam van student&quot; door jouw eigen naam (id=naam)</li>
+                        <li>Commit deze wijziging</li>
+                        <li>
+                            Herhaal de volgende stappen voor iedere hoofdstuk.
+                            <ul>
+                                <li>
+                                    Zoek een passende afbeelding voor het hoofdstuk,
+                                    voeg deze afbeelding toe in de map <em>images</em> en maak een commit.
+                                    <a href="https://www.google.com/search?q=introduction&tbm=isch&&tbs=ic:trans,sur:fmc,itp:clipart">zoeken</a>
+                                </li>
+                                <li>
+                                    Pas de src aan van de placeholder afbeelding van het introductie hoofdstuk aan,
+                                    zodat de nieuw toegevoegde afbeelding zichtbaar is en maak een commit.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Ga terug naar de <strong>develop</strong> branch.</li>
+                        <li><em>Merge</em> de aanpassingen van <strong>feature/afbeeldigen</strong> naar
+                            <strong>develop</strong>.
+                        </li>
+                        <li>Push de <strong>develop</strong> branch naar github</li>
+                    </ul>
+                </section>
+            </article>
+
+            <article id="use-case-diagram">
+                <header>
+                    <div class="title">
+                        <h2>Use case diagram</h2>
+                    </div>
+                    <div class="meta">
+                        <img src="images/placeholder.jpg">
+                    </div>
+                </header>
+                <section>
+                    <ul>
+                        <li>Ga naar de <strong>develop</strong> branch.</li>
+                        <li>Start een nieuwe feature branch: <strong>feature/use-case-diagram</strong></li>
+                        <li>
+                            Maak een <em>Use Case Diagram</em> voor de onderstaande <a href="#user-stories"><em>User-stories</em></a><br>
+                            Maak hierbij gebruik van:
+                            <ul>
+                                <li>Include relaties</li>
+                                <li>Extend relaties</li>
+                                <li>Primaire &amp; secundaire actor(s)</li>
+                            </ul>
+                        </li>
+                        <li>Vervang onderstaande placholder image (id=use-case-image) met jouw use case diagram.</li>
+                        <li>Commit deze aanpassing</li>
+                        <li>
+                            <em>Merge</em> de aanpassingen van naar de <strong>develop</strong> branch
+                        </li>
+                        <li>Push de <strong>develop</strong> branch naar github</li>
+                    </ul>
+                </section>
+                <section id="user-stories">
+                    <h3>User stories</h3>
+
+                    <ul>
+                        <li>Als koper wil ik een account aanmaken zodat ik mijn bestellingen kan bijhouden</li>
+                        <li>Als koper wil ik inloggen zodat ik producten direct kan bestellen</li>
+                        <li>Als koper wil ik producten zoeken zodat ik mijn favoriete product kan bestellen</li>
+                        <li>Als koper wil ik mijn bestellingen betalen met ideal omdat ik geen creditcard heb.
+                        </li>
+                        <li>Als koper wil ik mijn bestellingen betalen met creditcard zodat mijn aankopen
+                            beschermd zijn.
+                        </li>
+                        <li>Als koper wil ik mijn vragen kunnen stellen aan de service-medewerker zodat ik mijn
+                            vragen beantwoord krijg.
+                        </li>
+                        <li>Als beheerder wil ik producten toevoegen zodat kopers nieuwe producten kunnen
+                            bestellen.
+                        </li>
+                        <li>Als beheerder wil ik producten verwijderen zodat oude producten niet meer te
+                            bestellen zijn.
+                        </li>
+                        <li>Als beheerder wil ik producten wijzigen zodat de product informatie up-to-date
+                            blijft.
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Use case diagram</h3>
+                    <img src="images/placeholder.jpg" alt="Use case diagram" id="use-case-image">
+                </section>
+            </article>
+
+            <article id="conflict">
+                <header>
+                    <div class="title">
+                        <h2>Een conflict oplossen</h2>
+                        <p>
+                            Winnaar:
+                            <span id="winnaar">Chuck Norris</span>
+                        </p>
+                    </div>
+                    <div class="meta">
+                        <img src="images/placeholder.jpg">
+                    </div>
+                </header>
+
+                <section>
+                    <h3>Hulk</h3>
+                    <ul>
+                        <li>Begin een nieuwe feature branch: <strong>feature/hulk</strong></li>
+                        <li>Pas de hierboven aangegeven winnaar aan naar: <em>Hulk</em></li>
+                        <li>Commit deze wijziging.</li>
+                    </ul>
+
+                    <h3>Superman</h3>
+                    <ul>
+                        <li>Ga terug naar de <strong>develop</strong> branch</li>
+                        <li>Begin een nieuwe feature branch: <strong>feature/superman</strong></li>
+                        <li>Pas de hierboven aangegeven winnaar aan naar: <em>Superman</em></li>
+                        <li>Commit deze wijziging.</li>
+                    </ul>
+
+                    <h3>Fight!</h3>
+                    <ul>
+                        <li>Ga terug naar de <strong>develop</strong> branch</li>
+                        <li>
+                            <em>Merge</em> de aanpassingen van <strong>feature/superman</strong> naar
+                            <strong>develop</strong>.
+                        </li>
+                        <li>Controleer of superman de winnaar is.</li>
+                        <li><em>Merge</em> de aanpassingen van <strong>feature/hulk</strong> naar
+                            <strong>develop</strong>.
+                        </li>
+                        <li>
+                            <strong>Conflict!</strong>
+                            <pre><code>
+                                <<<<<<< HEAD
+                                &lt;span id="winnaar"&gt;Superman&lt;/span&gt;
+                                =======
+                                &lt;span id="winnaar"&gt;Hulk&lt;/span&gt;
+                                >>>>>>> feature/hulk
+                                </code>
+                            </pre>
+                        </li>
+                        <li>Zorg dat <em>Hulk</em> de winnaar is.</li>
+                        <li>Commit de merge</li>
+                        <li>Push de <strong>develop</strong> branch naar github</li>
+                    </ul>
+                </section>
+            </article>
+
+            <article>
+                <header>
+                    <div class="title">
+                        <h2>Release</h2>
+                    </div>
+                    <div class="meta">
+                        <img src="images/placeholder.jpg">
+                    </div>
+                </header>
+                <section>
+                    <ul>
+                        <li>Ga naar de <strong>develop</strong> branch.</li>
+                        <li>Start een nieuwe release branch: <strong>release/{versie}</strong></li>
+                        <li>
+                            Pas de versie aan in de <em>index.html</em><br>
+                            Boven aan de <em>index.html</em> (id=version), zie je de laatse <a
+                                href="#version">versie</a>,
+                            jouw <em>{versie}</em> is 1 cijfer hoger.
+                        </li>
+                        <li>Commit deze aanpassing</li>
+                        <li>Ga naar de <strong>develop</strong> branch</li>
+                        <li>
+                            <em>Merge</em> de aanpassingen van
+                            <strong>release/{versie}</strong> naar
+                            <strong>develop</strong>.
+                        </li>
+                        <li>Push de <strong>develop</strong> branch naar github</li>
+                        <li>Ga naar de <strong>master</strong> branch</li>
+                        <li>
+                            <em>Merge</em> de aanpassingen van
+                            <strong>release/{versie}</strong> naar
+                            <strong>master</strong>.
+                        </li>
+                        <li>Push de <strong>master</strong> branch naar github</li>
+                    </ul>
+                </section>
+
+            </article>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+    </body>
+</html>
